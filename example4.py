@@ -13,6 +13,7 @@ for i in range(3):
     strNum = input(f"Enter in number {num}>")
     intNum = int(strNum)
     total = total + intNum
+    total = round(total,2)
 print(f"The total of your numbers is {total}")
 
 """

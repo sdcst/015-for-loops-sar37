@@ -37,3 +37,16 @@ example:
 Enter a number: -4
 Invalid input
 """
+n = input("enter a number")
+n = float(n)
+total = 1
+if n < 0:
+    print("invalid input")
+
+else: 
+    n = int(n)
+    m = n + 1
+    for i in range(1,m):
+        total = total * i
+        
+print(f"{n}! is {total}")
